@@ -2,12 +2,19 @@
 A robust, modular backend system built with Clean Architecture, CQRS, and .NET Core.
 
 ✨ Features
+
 ✅ Clean Architecture – Clear separation of layers (Core, Infrastructure, API)
+
 ✅ CQRS Pattern – Using MediatR for command/query separation
+
 ✅ Multi-Language Support – English & Arabic localization
+
 ✅ Advanced Error Handling – Global middleware for consistent API responses
+
 ✅ Pagination – Flexible PaginatedResults<T> for large datasets
+
 ✅ Entity Framework Core – Database management with relationships
+
 ✅ AutoMapper – Seamless DTO-Entity mapping
 
 
