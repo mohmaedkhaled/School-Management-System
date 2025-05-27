@@ -30,7 +30,7 @@ Query Params:
 
 --pageSize (default: 10)
 
--sortBy (optional: "name", "email")
+--sortBy (optional: "name", "email")
 
 -Get Single Student
 GET /api/students/{id}
@@ -44,6 +44,22 @@ PUT /api/students/{id}
 
 -Delete Student
 DELETE /api/students/{id}
+
+
+*Departments
+
+-Get All Departments
+GET /api/departments
+
+-Create Department
+POST /api/departments
+
+
+*Subjects
+
+-Assign Subject to Student
+POST /api/subjects/assign
+
 
 
 🚀 Technologies Used
@@ -75,20 +91,13 @@ SchoolProject/
 └── SchoolProject.Service/     # External Services
 
 
+📚 Documentation
+For more details:
+
+* Explore the API with Swagger UI at /swagger
+
+* Check the Wiki for architecture diagrams
+
 
 🔧 Setup & Installation
-
-1-Clone the repository
-
-git clone https://github.com/your-username/SchoolProject.git
-cd SchoolProject
-
-
-
-
-
-
-
-
-
 
