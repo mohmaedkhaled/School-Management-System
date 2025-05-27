@@ -1,0 +1,107 @@
+[
+  {
+    "ContainingType": "SchoolProject.api.Controllers.StudentController",
+    "Method": "GetStudentByID",
+    "RelativePath": "api/Student/Api/V1/Student/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SchoolProject.api.Controllers.StudentController",
+    "Method": "Delete",
+    "RelativePath": "api/Student/Api/V1/Student/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SchoolProject.api.Controllers.StudentController",
+    "Method": "Create",
+    "RelativePath": "api/Student/Api/V1/Student/Create",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "command",
+        "Type": "SchoolProject.Core.Features.Students.Commands.Models.AddStudentCommand",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SchoolProject.api.Controllers.StudentController",
+    "Method": "Edit",
+    "RelativePath": "api/Student/Api/V1/Student/Edit",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "command",
+        "Type": "SchoolProject.Core.Features.Students.Commands.Models.EditStudentCommand",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SchoolProject.api.Controllers.StudentController",
+    "Method": "GetStudentList",
+    "RelativePath": "api/Student/Api/V1/Student/List",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SchoolProject.api.Controllers.StudentController",
+    "Method": "Paginated",
+    "RelativePath": "api/Student/Api/V1/Student/Paginated",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "PageNumber",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "PageSize",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "OrderBy",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Search",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
