@@ -23,7 +23,9 @@ A robust, modular backend system built with Clean Architecture, CQRS, and .NET C
 * Students
   
 Get All Students (Paginated)
+
 GET /api/students
+
 Query Params:
 
 -- pageNumber (default: 1)
@@ -32,32 +34,45 @@ Query Params:
 
 -- sortBy (optional: "name", "email")
 
+
 -Get Single Student
+
 GET /api/students/{id}
 
+
 -Create Student
+
 POST /api/students
 
+
 -Update Student
+
 PUT /api/students/{id}
 (same body as Create)
 
+
 -Delete Student
+
 DELETE /api/students/{id}
 
 
 * Departments
 
 -Get All Departments
+
 GET /api/departments
 
+
 -Create Department
+
 POST /api/departments
+
 
 
 * Subjects
 
 -Assign Subject to Student
+
 POST /api/subjects/assign
 
 
