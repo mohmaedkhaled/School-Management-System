@@ -46,7 +46,7 @@ PUT /api/students/{id}
 DELETE /api/students/{id}
 
 
-*Departments
+* Departments
 
 -Get All Departments
 GET /api/departments
@@ -55,7 +55,7 @@ GET /api/departments
 POST /api/departments
 
 
-*Subjects
+* Subjects
 
 -Assign Subject to Student
 POST /api/subjects/assign
