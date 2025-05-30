@@ -16,12 +16,15 @@ namespace SchoolProject.Core.Features.Students.Commands.Handlers
         private readonly IStudentService _studentService;
         private readonly IMapper _mapper;
 
+        #region Constructors
         public StudentCommandHandler(IStudentService studentService, IMapper mapper)
         {
             _studentService = studentService;
             _mapper = mapper;
 
         }
+        #endregion
+
 
         public async Task<Response<string>> Handle(AddStudentCommand request, CancellationToken cancellationToken)
         {

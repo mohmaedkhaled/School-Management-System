@@ -1,8 +1,10 @@
 ﻿using AutoMapper;
 using MediatR;
+using Microsoft.Extensions.Localization;
 using SchoolProject.Core.Bases;
 using SchoolProject.Core.Features.Students.Queries.Models;
 using SchoolProject.Core.Features.Students.Queries.Results;
+using SchoolProject.Core.Resources;
 using SchoolProject.Core.Wrappers;
 using SchoolProject.Data.Entities;
 using SchoolProject.Service.Abstracts;
@@ -17,11 +19,22 @@ namespace SchoolProject.Core.Features.Students.Queries.Handlers
     {
         private readonly IStudentService _studentService;
         private readonly IMapper _mapper;
-        public StudentQueryHandler(IStudentService studentService, IMapper mapper)
+        private readonly IStringLocalizer<SharedResources> _stringLocalizer;
+
+        #region Constructors
+        public StudentQueryHandler(IStudentService studentService,
+                                   IMapper mapper,
+                                   IStringLocalizer<SharedResources> stringLocalizer)
         {
             _studentService = studentService;
             _mapper = mapper;
+            _stringLocalizer = stringLocalizer;
         }
+        #endregion
+
+        #region Handel Functions
+
+
         public async Task<Response<List<GetStudentListResponse>>> Handle(GetStudentListQuery request, CancellationToken cancellationToken)
         {
             var studentList = await _studentService.GetStudentsListAsync();
@@ -33,7 +46,7 @@ namespace SchoolProject.Core.Features.Students.Queries.Handlers
         public async Task<Response<GetSingleStudentResponse>> Handle(GetStudentByIDQuery request, CancellationToken cancellationToken)
         {
             var student = await _studentService.GetStudentsByIDWithIncludeAsync(request.Id);
-            if (student == null) return NotFound<GetSingleStudentResponse>("Object Not Found ");
+            if (student == null) return NotFound<GetSingleStudentResponse>(_stringLocalizer[SharedResourcesKey.NotFound]);
             var result = _mapper.Map<GetSingleStudentResponse>(student);
             return Success(result);
 
@@ -46,5 +59,8 @@ namespace SchoolProject.Core.Features.Students.Queries.Handlers
             var PaginatedList = await FilterQuery.Select(expresion).ToPaginatedListAsync(request.PageNumber, request.PageSize);
             return PaginatedList;
         }
+        #endregion
+
+
     }
 }

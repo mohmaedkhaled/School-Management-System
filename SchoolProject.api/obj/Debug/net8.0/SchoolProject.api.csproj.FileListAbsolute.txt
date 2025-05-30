@@ -320,6 +320,12 @@ C:\Users\mk595\OneDrive\Desktop\SchoolProject\SchoolProject\SchoolProject.api\ob
 C:\Users\mk595\OneDrive\Desktop\SchoolProject\SchoolProject\SchoolProject.api\obj\Debug\net8.0\SchoolProject.api.pdb
 C:\Users\mk595\OneDrive\Desktop\SchoolProject\SchoolProject\SchoolProject.api\obj\Debug\net8.0\SchoolProject.api.genruntimeconfig.cache
 C:\Users\mk595\OneDrive\Desktop\SchoolProject\SchoolProject\SchoolProject.api\obj\Debug\net8.0\ref\SchoolProject.api.dll
+E:\7amo\C#\SchoolProject\SchoolProject.api\obj\Debug\net8.0\SchoolProject.api.csproj.AssemblyReference.cache
+E:\7amo\C#\SchoolProject\SchoolProject.api\obj\Debug\net8.0\SchoolProject.api.GeneratedMSBuildEditorConfig.editorconfig
+E:\7amo\C#\SchoolProject\SchoolProject.api\obj\Debug\net8.0\SchoolProject.api.AssemblyInfoInputs.cache
+E:\7amo\C#\SchoolProject\SchoolProject.api\obj\Debug\net8.0\SchoolProject.api.AssemblyInfo.cs
+E:\7amo\C#\SchoolProject\SchoolProject.api\obj\Debug\net8.0\SchoolProject.api.csproj.CoreCompileInputs.cache
+E:\7amo\C#\SchoolProject\SchoolProject.api\obj\Debug\net8.0\SchoolProject.api.MvcApplicationPartsAssemblyInfo.cache
 E:\7amo\C#\SchoolProject\SchoolProject.api\bin\Debug\net8.0\appsettings.Development.json
 E:\7amo\C#\SchoolProject\SchoolProject.api\bin\Debug\net8.0\appsettings.json
 E:\7amo\C#\SchoolProject\SchoolProject.api\bin\Debug\net8.0\SchoolProject.api.staticwebassets.endpoints.json
@@ -357,6 +363,7 @@ E:\7amo\C#\SchoolProject\SchoolProject.api\bin\Debug\net8.0\Microsoft.Extensions
 E:\7amo\C#\SchoolProject\SchoolProject.api\bin\Debug\net8.0\Microsoft.Extensions.DependencyModel.dll
 E:\7amo\C#\SchoolProject\SchoolProject.api\bin\Debug\net8.0\Microsoft.Extensions.Identity.Core.dll
 E:\7amo\C#\SchoolProject\SchoolProject.api\bin\Debug\net8.0\Microsoft.Extensions.Identity.Stores.dll
+E:\7amo\C#\SchoolProject\SchoolProject.api\bin\Debug\net8.0\Microsoft.Extensions.Localization.Abstractions.dll
 E:\7amo\C#\SchoolProject\SchoolProject.api\bin\Debug\net8.0\Microsoft.Extensions.Logging.dll
 E:\7amo\C#\SchoolProject\SchoolProject.api\bin\Debug\net8.0\Microsoft.Extensions.Logging.Abstractions.dll
 E:\7amo\C#\SchoolProject\SchoolProject.api\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
@@ -462,13 +469,9 @@ E:\7amo\C#\SchoolProject\SchoolProject.api\bin\Debug\net8.0\SchoolProject.Core.p
 E:\7amo\C#\SchoolProject\SchoolProject.api\bin\Debug\net8.0\SchoolProject.Data.pdb
 E:\7amo\C#\SchoolProject\SchoolProject.api\bin\Debug\net8.0\SchoolProject.Infrustructure.pdb
 E:\7amo\C#\SchoolProject\SchoolProject.api\bin\Debug\net8.0\SchoolProject.Service.pdb
-E:\7amo\C#\SchoolProject\SchoolProject.api\obj\Debug\net8.0\SchoolProject.api.csproj.AssemblyReference.cache
-E:\7amo\C#\SchoolProject\SchoolProject.api\obj\Debug\net8.0\SchoolProject.api.GeneratedMSBuildEditorConfig.editorconfig
-E:\7amo\C#\SchoolProject\SchoolProject.api\obj\Debug\net8.0\SchoolProject.api.AssemblyInfoInputs.cache
-E:\7amo\C#\SchoolProject\SchoolProject.api\obj\Debug\net8.0\SchoolProject.api.AssemblyInfo.cs
-E:\7amo\C#\SchoolProject\SchoolProject.api\obj\Debug\net8.0\SchoolProject.api.csproj.CoreCompileInputs.cache
+E:\7amo\C#\SchoolProject\SchoolProject.api\bin\Debug\net8.0\Ar\SchoolProject.Core.resources.dll
+E:\7amo\C#\SchoolProject\SchoolProject.api\bin\Debug\net8.0\En\SchoolProject.Core.resources.dll
 E:\7amo\C#\SchoolProject\SchoolProject.api\obj\Debug\net8.0\SchoolProject.api.MvcApplicationPartsAssemblyInfo.cs
-E:\7amo\C#\SchoolProject\SchoolProject.api\obj\Debug\net8.0\SchoolProject.api.MvcApplicationPartsAssemblyInfo.cache
 E:\7amo\C#\SchoolProject\SchoolProject.api\obj\Debug\net8.0\scopedcss\bundle\SchoolProject.api.styles.css
 E:\7amo\C#\SchoolProject\SchoolProject.api\obj\Debug\net8.0\staticwebassets.build.json
 E:\7amo\C#\SchoolProject\SchoolProject.api\obj\Debug\net8.0\staticwebassets.development.json
@@ -486,5 +489,3 @@ E:\7amo\C#\SchoolProject\SchoolProject.api\obj\Debug\net8.0\refint\SchoolProject
 E:\7amo\C#\SchoolProject\SchoolProject.api\obj\Debug\net8.0\SchoolProject.api.pdb
 E:\7amo\C#\SchoolProject\SchoolProject.api\obj\Debug\net8.0\SchoolProject.api.genruntimeconfig.cache
 E:\7amo\C#\SchoolProject\SchoolProject.api\obj\Debug\net8.0\ref\SchoolProject.api.dll
-E:\7amo\C#\SchoolProject\SchoolProject.api\bin\Debug\net8.0\Ar\SchoolProject.Core.resources.dll
-E:\7amo\C#\SchoolProject\SchoolProject.api\bin\Debug\net8.0\En\SchoolProject.Core.resources.dll
