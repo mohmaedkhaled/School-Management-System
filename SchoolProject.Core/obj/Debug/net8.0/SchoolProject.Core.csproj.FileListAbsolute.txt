@@ -40,12 +40,6 @@ C:\Users\mk595\OneDrive\Desktop\SchoolProject\SchoolProject\SchoolProject.Core\o
 C:\Users\mk595\OneDrive\Desktop\SchoolProject\SchoolProject\SchoolProject.Core\obj\Debug\net8.0\SchoolProject.Core.pdb
 C:\Users\mk595\OneDrive\Desktop\SchoolProject\SchoolProject\SchoolProject.Core\obj\Debug\net8.0\SchoolProject.Core.genruntimeconfig.cache
 C:\Users\mk595\OneDrive\Desktop\SchoolProject\SchoolProject\SchoolProject.Core\obj\Debug\net8.0\ref\SchoolProject.Core.dll
-E:\7amo\C#\SchoolProject\SchoolProject.Core\obj\Debug\net8.0\SchoolProject.Core.csproj.AssemblyReference.cache
-E:\7amo\C#\SchoolProject\SchoolProject.Core\obj\Debug\net8.0\SchoolProject.Core.csproj.GenerateResource.cache
-E:\7amo\C#\SchoolProject\SchoolProject.Core\obj\Debug\net8.0\SchoolProject.Core.GeneratedMSBuildEditorConfig.editorconfig
-E:\7amo\C#\SchoolProject\SchoolProject.Core\obj\Debug\net8.0\SchoolProject.Core.AssemblyInfoInputs.cache
-E:\7amo\C#\SchoolProject\SchoolProject.Core\obj\Debug\net8.0\SchoolProject.Core.AssemblyInfo.cs
-E:\7amo\C#\SchoolProject\SchoolProject.Core\obj\Debug\net8.0\SchoolProject.Core.csproj.CoreCompileInputs.cache
 E:\7amo\C#\SchoolProject\SchoolProject.Core\bin\Debug\net8.0\SchoolProject.Core.deps.json
 E:\7amo\C#\SchoolProject\SchoolProject.Core\bin\Debug\net8.0\SchoolProject.Core.runtimeconfig.json
 E:\7amo\C#\SchoolProject\SchoolProject.Core\bin\Debug\net8.0\SchoolProject.Core.dll
@@ -58,8 +52,14 @@ E:\7amo\C#\SchoolProject\SchoolProject.Core\bin\Debug\net8.0\SchoolProject.Servi
 E:\7amo\C#\SchoolProject\SchoolProject.Core\bin\Debug\net8.0\SchoolProject.Data.pdb
 E:\7amo\C#\SchoolProject\SchoolProject.Core\bin\Debug\net8.0\SchoolProject.Infrustructure.pdb
 E:\7amo\C#\SchoolProject\SchoolProject.Core\bin\Debug\net8.0\SchoolProject.Service.pdb
+E:\7amo\C#\SchoolProject\SchoolProject.Core\obj\Debug\net8.0\SchoolProject.Core.csproj.AssemblyReference.cache
 E:\7amo\C#\SchoolProject\SchoolProject.Core\obj\Debug\net8.0\SchoolProject.Core.Resources.SharedResources.Ar.resources
 E:\7amo\C#\SchoolProject\SchoolProject.Core\obj\Debug\net8.0\SchoolProject.Core.Resources.SharedResources.En.resources
+E:\7amo\C#\SchoolProject\SchoolProject.Core\obj\Debug\net8.0\SchoolProject.Core.csproj.GenerateResource.cache
+E:\7amo\C#\SchoolProject\SchoolProject.Core\obj\Debug\net8.0\SchoolProject.Core.GeneratedMSBuildEditorConfig.editorconfig
+E:\7amo\C#\SchoolProject\SchoolProject.Core\obj\Debug\net8.0\SchoolProject.Core.AssemblyInfoInputs.cache
+E:\7amo\C#\SchoolProject\SchoolProject.Core\obj\Debug\net8.0\SchoolProject.Core.AssemblyInfo.cs
+E:\7amo\C#\SchoolProject\SchoolProject.Core\obj\Debug\net8.0\SchoolProject.Core.csproj.CoreCompileInputs.cache
 E:\7amo\C#\SchoolProject\SchoolProject.Core\obj\Debug\net8.0\Ar\SchoolProject.Core.resources.dll
 E:\7amo\C#\SchoolProject\SchoolProject.Core\obj\Debug\net8.0\En\SchoolProject.Core.resources.dll
 E:\7amo\C#\SchoolProject\SchoolProject.Core\obj\Debug\net8.0\SchoolPr.1F8A3534.Up2Date

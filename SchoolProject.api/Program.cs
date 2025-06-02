@@ -35,7 +35,7 @@ builder.Services.AddModuleInfrustructureDependencies()
 builder.Services.AddControllersWithViews();
 builder.Services.AddLocalization(opt =>
 {
-    opt.ResourcesPath = "Resources";
+    opt.ResourcesPath = "";
 });
 
 builder.Services.Configure<RequestLocalizationOptions>(options =>

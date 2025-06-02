@@ -24,7 +24,7 @@ namespace SchoolProject.Core.Features.Students.Queries.Handlers
         #region Constructors
         public StudentQueryHandler(IStudentService studentService,
                                    IMapper mapper,
-                                   IStringLocalizer<SharedResources> stringLocalizer)
+                                   IStringLocalizer<SharedResources> stringLocalizer) : base(stringLocalizer)
         {
             _studentService = studentService;
             _mapper = mapper;
@@ -54,13 +54,12 @@ namespace SchoolProject.Core.Features.Students.Queries.Handlers
 
         public async Task<PaginatedResult<GetStudentPaginatedListResponse>> Handle(GetStudentPaginatedListQuery request, CancellationToken cancellationToken)
         {
-            Expression<Func<Student, GetStudentPaginatedListResponse>> expresion = e => new GetStudentPaginatedListResponse(e.StudID, e.Name, e.Address, e.Department.DName);
+            Expression<Func<Student, GetStudentPaginatedListResponse>> expresion = e => new GetStudentPaginatedListResponse(e.StudID, e.NameAr, e.Address, e.Department.DNameAr);
             var FilterQuery = _studentService.FilterStudentPaginatedQuerable(request.OrderBy, request.Search);
             var PaginatedList = await FilterQuery.Select(expresion).ToPaginatedListAsync(request.PageNumber, request.PageSize);
             return PaginatedList;
         }
         #endregion
-
 
     }
 }
