@@ -12,13 +12,14 @@ namespace SchoolProject.Data.Entities
             DepartmentSubjects = new HashSet<DepartmetSubject>();
         }
         [Key]
+        [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
         public int DID { get; set; }
         [StringLength(100)]
-        public string DNameAr { get; set; }
+        public string? DNameAr { get; set; }
         [StringLength(100)]
-        public string DNameEn { get; set; }
+        public string? DNameEn { get; set; }
 
-        public int InsManager { get; set; }
+        public int? InsManager { get; set; }
 
 
         // relation with student table one to many
@@ -36,6 +37,6 @@ namespace SchoolProject.Data.Entities
         public virtual ICollection<Instructor> Instructors { get; set; }
         [ForeignKey("InsManager")]
         [InverseProperty("departmentManager")]
-        public virtual Instructor Instructor { get; set; }
+        public virtual Instructor? Instructor { get; set; }
     }
 }

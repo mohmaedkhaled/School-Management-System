@@ -173,7 +173,11 @@
       "AddStudentCommand": {
         "type": "object",
         "properties": {
-          "name": {
+          "nameAr": {
+            "type": "string",
+            "nullable": true
+          },
+          "nameEn": {
             "type": "string",
             "nullable": true
           },
@@ -199,7 +203,11 @@
             "type": "integer",
             "format": "int32"
           },
-          "name": {
+          "nameAr": {
+            "type": "string",
+            "nullable": true
+          },
+          "nameEn": {
             "type": "string",
             "nullable": true
           },

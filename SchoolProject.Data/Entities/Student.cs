@@ -11,19 +11,20 @@ namespace SchoolProject.Data.Entities
             StudentSubject = new HashSet<StudentSubject>();
         }
         [Key]
+        [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
         public int StudID { get; set; }
-        public string NameAr { get; set; }
-        public string NameEn { get; set; }
+        public string? NameAr { get; set; }
+        public string? NameEn { get; set; }
         [StringLength(500)]
-        public string Address { get; set; }
+        public string? Address { get; set; }
         [StringLength(500)]
-        public string Phone { get; set; }
+        public string? Phone { get; set; }
         public int? DID { get; set; }
 
         // relation with department table many to one
         [ForeignKey("DID")]
         [InverseProperty("Students")]
-        public virtual Department Department { get; set; }
+        public virtual Department? Department { get; set; }
 
 
         // relation eith studentsubject table one to many (realtion many to many with subject table)

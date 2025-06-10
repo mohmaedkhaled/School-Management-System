@@ -10,14 +10,15 @@ namespace SchoolProject.Data.Entities
         [Key]
         public int SubId { get; set; }
 
-
+        // relation with instructor table many to one
         [ForeignKey(nameof(InsId))]
         [InverseProperty("Ins_Subject")]
-        public Instructor instructor { get; set; }
+        public Instructor? instructor { get; set; }
 
 
+        // relation with subject table many to one
         [ForeignKey(nameof(SubId))]
         [InverseProperty("Ins_Subjects")]
-        public Subject subject { get; set; }
+        public Subject? subject { get; set; }
     }
 }

@@ -9,18 +9,19 @@ namespace SchoolProject.Data.Entities
         public int StudID { get; set; }
         [Key]
         public int SubID { get; set; }
+        public decimal? grade { get; set; }
 
 
         // relation with student table many to one 
         [ForeignKey("StudID")]
         [InverseProperty("StudentSubject")]
-        public virtual Student Student { get; set; }
+        public virtual Student? Student { get; set; }
 
 
         // relation with subject table many to one
         [ForeignKey("SubID")]
         [InverseProperty("StudentsSubjects")]
-        public virtual Subject Subject { get; set; }
+        public virtual Subject? Subject { get; set; }
 
     }
 }

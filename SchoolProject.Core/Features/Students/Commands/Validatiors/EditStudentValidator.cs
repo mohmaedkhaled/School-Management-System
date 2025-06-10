@@ -29,7 +29,7 @@ namespace SchoolProject.Core.Features.Students.Commands.Validatiors
         #region Action
         public void ApplyValidationsRules()
         {
-            RuleFor(x => x.Name)
+            RuleFor(x => x.NameAr)
                 .NotEmpty().WithMessage(_localizer[SharedResourcesKey.NotEmpty])
                 .NotNull().WithMessage(_localizer[SharedResourcesKey.Required])
                 .MaximumLength(100).WithMessage(_localizer[SharedResourcesKey.MaxLengthis100]);
@@ -45,8 +45,11 @@ namespace SchoolProject.Core.Features.Students.Commands.Validatiors
 
         public void ApplyCustomValidationsRules()
         {
-            RuleFor(x => x.Name)
-                .MustAsync(async (model, key, CancellationToken) => !await _studentService.IsNameExistExcludeSelf(key, model.Id))
+            RuleFor(x => x.NameAr)
+                .MustAsync(async (model, key, CancellationToken) => !await _studentService.IsNameArExistExcludeSelf(key, model.Id))
+                .WithMessage(_localizer[SharedResourcesKey.IsExist]);
+            RuleFor(x => x.NameEn)
+                .MustAsync(async (model, key, CancellationToken) => !await _studentService.IsNameEnExistExcludeSelf(key, model.Id))
                 .WithMessage(_localizer[SharedResourcesKey.IsExist]);
         }
         #endregion
